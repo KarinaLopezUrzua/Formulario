@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Formulario" content="Tarea nº1 Bootcamp Coding Dojo">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <h1>"Formulario de Registro"</h1>
+    <h3>A continuación, registre los siguientes datos:</h3>
+
+    <form action="">
+        <label for="Name">Nombre: *</label>
+        <input type="text" id="Name" name="Name" required /><br><br>
+        <label for="Apellidos">Apellidos: *</label>
+        <input type="text" id="Apellidos" name="Apellidos" required /><br><br>
+        <label for="Email">Email: *</label>
+        <input type="text" id="Email" name="Email" /><br><br>
+        <label for="Contraseña">Contraseña: *</label>
+        <input type="text" id="Contraseña" name="Contraseña" required /><br><br>
+        <label for="Contraseña1">Confirmar Contraseña: *</label>
+        <input type="text" id="Contraseña1" name="Contraseña1" required /><br><br>
+        <label for="Nacimiento">Fecha de Nacimiento:</label>
+        <input type="text" id="Nacimiento" name="Nacimiento" /><br><br>
+
+        <label for="Nacimiento">Genero:</label>
+        <form action=""></form>
+        <input type="radio" id="Genero" name="Genero" value="Femenino">
+        <label for="Genero">Femenino</label><br>
+        <input type="radio" id="Genero" name="Genero" value="Masculino" />
+        <label for="Genero">Masculino</label><br>
+        <input type="radio" id="Genero" name="Genero" value="NoEspecificar" />
+        <label for="Genero">No especificar</label><br><br>
+
+        <label for="Descripcion">Realiza una breve descripción sobre ti:</label><br>
+        <textarea id="Descripcion" name="Descripcion" rows="4" cols="40"></textarea><br><br>
+
+        <label for="Lenguaje">Cuál es su lenguaje de programación favorito:</label>
+        <select name="Lenguaje" id="Lenguaje">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="javascript">JavaScript</option>
+            <option value="c++">C++</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" id="Confirmacion" name="Confirmacion" value="Yes">
+        <label for="Confirmacion">Si, me gustaria recibir un Newsletter</label><br><br>
+        <input type="submit">
+    </form>
+
+    <h5>
+        <p>*Información obligatoria</p>
+    </h5>
+</body>
+
+</body>
+</html>
